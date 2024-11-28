@@ -5,7 +5,7 @@ const script=document.createElement('script')
 document.body.appendChild(script)
 
 if (v==undefined || v==''){
-	script.src='/v/1.2.js'
+	script.src='/ver/1.2.js'
 }
 else if(v=='1.0' || v=='1.1'){
 	script.src='/v/'+v+'.js';
