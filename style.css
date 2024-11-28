@@ -1,0 +1,44 @@
+@font-face{
+  font-family: Poppins;
+  src:url(poppins);
+}
+
+canvas{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+  width: 100%;
+  height: 50%;
+}
+
+#p{
+  z-index: 10;
+	position: absolute;
+  font-family: Poppins;
+}
+
+#k{
+  z-index: 10;
+  position: absolute;
+  top: 50px;
+  font-family: Poppins;
+}
+
+h2{
+	z-index:10;
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+
+a{
+	z-index: 10;
+	position: absolute;
+  bottom:0px;
+	right:10px;
+	font-family:Poppins;
+}
+
+audio{
+	z-index:10;
+}
