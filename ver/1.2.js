@@ -7,7 +7,7 @@ renderer.setClearColor(0x7fffff, 1);
 document.body.appendChild(renderer.domElement);
 
 const texl=new THREE.TextureLoader()
-texl.setPath("https://9b7b7c97-b8f5-4f59-9e53-31931c7079c4-00-16i9pwelwgym6.picard.replit.dev/textures/game/blocks/")
+texl.setPath("https://nyanfroggy.github.io/BuildTheBridge/assets/")
 
 const dirt=texl.load("dirt")
 const grtex_side=texl.load("grass-block-side")
